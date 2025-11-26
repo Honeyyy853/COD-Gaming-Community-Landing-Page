@@ -80,20 +80,18 @@ Preview production build:
 npm run preview
 ```
 
-Screenshots
------------
+Large Media via Git LFS
+-----------------------
 
-Hero section:
+This project tracks all videos in `public/videos/` with Git LFS. Before cloning or pulling, make sure Git LFS is installed and initialized:
 
-![Hero](public/img/S1.jpg)
+```bash
+git lfs install
+```
 
-Features section:
+If you already cloned without LFS, run `git lfs pull` to fetch the actual video assets.
 
-![Features](public/img/feature.jpg)
 
-About section:
-
-![About](public/img/about.png)
 
 
 
